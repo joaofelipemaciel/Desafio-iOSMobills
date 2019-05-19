@@ -12,6 +12,7 @@
 		C32500EB2291962B0070A973 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C32500E92291962B0070A973 /* Main.storyboard */; };
 		C32500ED2291962D0070A973 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C32500EC2291962D0070A973 /* Assets.xcassets */; };
 		C32500F02291962D0070A973 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C32500EE2291962D0070A973 /* LaunchScreen.storyboard */; };
+		C32500FA229196A50070A973 /* Despesa.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32500F9229196A50070A973 /* Despesa.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		C32500EC2291962D0070A973 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C32500EF2291962D0070A973 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C32500F12291962D0070A973 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C32500F9229196A50070A973 /* Despesa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Despesa.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,8 @@
 		C32500E42291962B0070A973 /* Desafio-iOSMobills */ = {
 			isa = PBXGroup;
 			children = (
+				C32500F7229196530070A973 /* Model */,
+				C32500F82291965A0070A973 /* Controller */,
 				C32500E52291962B0070A973 /* AppDelegate.swift */,
 				C32500E72291962B0070A973 /* ViewController.swift */,
 				C32500E92291962B0070A973 /* Main.storyboard */,
@@ -62,6 +66,21 @@
 				C32500F12291962D0070A973 /* Info.plist */,
 			);
 			path = "Desafio-iOSMobills";
+			sourceTree = "<group>";
+		};
+		C32500F7229196530070A973 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C32500F9229196A50070A973 /* Despesa.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C32500F82291965A0070A973 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C32500E82291962B0070A973 /* ViewController.swift in Sources */,
+				C32500FA229196A50070A973 /* Despesa.swift in Sources */,
 				C32500E62291962B0070A973 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,6 +303,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8XMF2BLFJM;
 				INFOPLIST_FILE = "Desafio-iOSMobills/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -300,6 +321,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8XMF2BLFJM;
 				INFOPLIST_FILE = "Desafio-iOSMobills/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
